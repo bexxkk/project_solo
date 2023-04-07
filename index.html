@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project_solo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header class="header">
@@ -13,24 +12,199 @@
             <div class="header__wrapper">
                 <div class="header__logo">
                     <a href="" class="header__logo-link">
-                        <img src="./logo.png" width="450px" height="450px" alt="Skillz" class="header__logo-pic">
+                        <img src="./logo.png" width="150px" height="150px" alt="" class="header__logo-pic">
                     </a>
                 </div>
     
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="" class="header__link">Education</a>
+                            <a href="" class="header__link">Courses<a>
                         </li>
                         <li class="header__item">
-                            <a href="" class="header__link">About us</a>
+                            <a href="" class="header__link ">About us<a>
                         </li>
                         <li class="header__item">
-                            <a href="" class="header__link">Sign in</a>
+                            <a href=""class="header__link">Sign in</a>
+                        </li>
+                        <li class="header__item">
+                            <a href=""class="header__link">Register</a>
                         </li>
 					</ul>
+					<div class="header__nav-close">
+						<span class="header__nav-close-line"></span>
+						<span class="header__nav-close-line"></span>
+					</div>
 				</nav>
+				<div class="header__burger burger">
+					<span class="burger__line burger__line_first"></span>
+					<span class="burger__line burger__line_second"></span>
+					<span class="burger__line burger__line_third"></span>
+				</div>
             </div>
         </div>
+    </header>
+
+    <main class="main">
+        <section class="intro" id="sign-in">
+            <div class="wrapper">
+                <h1 class="intro__title">
+                    Welcome to Skillz!
+                </h1>
+                <p class="intro__subtitle">
+                    "The Power of Dreams!"
+                </p>
+                <form class="search-form">
+                    <fieldset class="serach-form__wrap">
+                        <p class="search-form__info">
+                            <input type="text" name="user-like-to-do" class="search-form__field" placeholder="What course do you like to learn?">
+                            <button type="submit" class="search-form__submit">search</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+               
+        <section class="benefits">
+            <div class="benefits__wrap">
+                <h2 class="benefits__title">
+                    Benefits of Skillz
+                </h2>
+                <div class="benefits__cards">
+                    <div class="benefits__card">
+                        <div class="benefits__card-pic">
+                            <img src="./a.png" alt="Novelties" class="benefits__card-thumb">
+                        </div>
+                        <h3 class="benefits__card-title">
+                            Our Teachers!
+                        </h3>
+                        <p class="benefits__card-desc">
+                            Our team consists only of highly <br> qualified specialists
+                        </p>
+                      
+                    </div>
+                    <div class="benefits__card">
+                        <div class="benefits__card-pic">
+                            <img src="./b.png" alt="High quality" class="benefits__card-thumb">
+                        </div>
+                        <h3 class="benefits__card-title">
+                            Training program
+                        </h3>
+                        <p class="benefits__card-desc">
+                        You make your own schedule of lessons, <br> study at any time convenient for you
+                        </p>
+                        
+                    </div>
+                    <div class="benefits__card">
+                        <div class="benefits__card-pic">
+                            <img src="./c.png" alt="Manga Library" class="benefits__card-thumb">
+                        </div>
+                        <h3 class="benefits__card-title">
+                            Nice and Easy site
+                        </h3>
+                        <p class="benefits__card-desc">
+                            Our site is user-friendly, <br> everything is clear and accessible
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <section class="places">
+            <div class="wrapper-full">
+                <div class="places__caption">
+                    <h2 class="places__title section-title">
+                        Our trial lessons
+                    </h2>
+                </div>
+
+                <div class="places__cards">
+
+                    <div class="places__card places__card_size_lg">
+                        <img src="./java_1.png" alt="Blue Lock" class="places__card-pic places__card-pic_size_lg">
+                        <h3 class="places__card-title">
+                            Java
+                        </h3>
+                        <a href="" class="places__card-link"></a>
+                    </div>
+                    
+                    <div class="places__card places__card_size_lg">
+                        <img src="./cplus.png" alt="Hailkyuu" class="places__card-pic places__card-pic_size_lg">
+                        <h3 class="places__card-title">
+                            C++
+                        </h3>
+                        <a href="" class="places__card-link"></a>
+                    </div>
+
+                    <div class="places__card places__card_size_sm">
+                        <img src="./python_1.png" alt="One Piece" class="places__card-pic places__card-pic_size_sm">
+                        <h3 class="places__card-title">
+                            Python
+                        </h3>
+                        <a href="" class="places__card-link"></a>
+                    </div>
+
+                    <div class="places__card places__card_size_sm">
+                        <img src="./ci.jpg" alt="Demon Slayer" class="places__card-pic places__card-pic_size_sm">
+                        <h3 class="places__card-title">
+                            C
+                        </h3>
+                        <a href="" class="places__card-link"></a>
+                    </div>
+
+                    <div class="places__card places__card_size_sm">
+                        <img src="./js.jpg" alt="Attack on Titan" class="places__card-pic places__card-pic_size_sm">
+                        <h3 class="places__card-title">
+                            JavaScript
+                        </h3>
+                        <a href="" class="places__card-link"></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>      
+
+        
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="./logo.png" width="120px" alt="Discover Amazing places in Japan" class="footer__logo-pic">
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h1 class="footer__menu-title">Email</h1>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">skill_z@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Location</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">Almaty, Kazakhstan</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">+7(747) 595 13 16</a>
+                        </li>
+                    </ul>
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Social Media</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">Instagram</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
